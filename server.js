@@ -8,7 +8,6 @@ const {
   SECRET = "secret",
   NODE_ENV = "development",
 } = process.env;
-console.log(PORT);
 
 //Bringing in Express
 const express = require("express");
