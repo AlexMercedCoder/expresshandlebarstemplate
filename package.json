@@ -15,6 +15,7 @@
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
     "express-session": "^1.17.1",
+    "mercedlogger": "^1.0.1",
     "method-override": "^3.0.0",
     "morgan": "^1.10.0",
     "yenv": "^2.1.1"

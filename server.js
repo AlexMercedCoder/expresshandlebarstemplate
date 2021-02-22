@@ -19,6 +19,7 @@ var exphbs = require("express-handlebars");
 const session = require("express-session");
 const methodOverride = require("method-override");
 const morgan = require("morgan");
+const {log} = require("mercedlogger")
 
 ////////////////
 // Set View Engine
@@ -52,5 +53,5 @@ app.get("/", (req, res) => {
 
 //LISTENER
 app.listen(PORT, () => {
-  console.log(`Your are listening on port ${PORT}`);
+  log.green("Server Start", `Your are listening on port ${PORT}`);
 });
